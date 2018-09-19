@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<App /> Snapshot 1`] = `
+<div
+  className="App"
+>
+  <CardLarge />
+  <CardSmall
+    key="1"
+  />
+  <CardSmall
+    key="2"
+  />
+  <CardSmall
+    key="3"
+  />
+  <CardSmall
+    key="4"
+  />
+  <CardSmall
+    key="5"
+  />
+  <CardSmall
+    key="6"
+  />
+  <CardSmall
+    key="7"
+  />
+  <CardSmall
+    key="8"
+  />
+  <CardSmall
+    key="9"
+  />
+  <CardSmall
+    key="10"
+  />
+</div>
+`;

@@ -1,10 +1,9 @@
 import React  from 'react';
-import { ReactDom } from 'react-dom';
 
-const CardLarge = ({ title, image, onClick }) => {
+const CardLarge = (props) => {
 
     const heigth = 620;
-
+    const { title, image, onClick } = props;
     const cardCss = {
         marginTop: 0,
         marginBottom: 0,
@@ -60,6 +59,9 @@ const CardLarge = ({ title, image, onClick }) => {
         backgroundColor: '#004D40',
         opacity: 0.60,
         zIndex: 1
+    }
+    const onClickHandler = (evt) =>{
+        onClick("demo");
     }
 
     return (<div className={`card col l6 s12 m12`} style={cardCss} onClick={onClick}>
