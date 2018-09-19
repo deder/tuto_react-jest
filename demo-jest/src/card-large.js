@@ -60,10 +60,6 @@ const CardLarge = (props) => {
         opacity: 0.60,
         zIndex: 1
     }
-    const onClickHandler = (evt) =>{
-        onClick("demo");
-    }
-
     return (<div className={`card col l6 s12 m12`} style={cardCss} onClick={onClick}>
         <div className="card-image waves-effect waves-block waves-light" style={cardImageCss}>
             <div className="card-content" style={cardContentCss}>
