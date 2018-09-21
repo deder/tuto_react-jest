@@ -8,7 +8,7 @@ jobs:
 
     steps:
       - checkout
-	    - run: npm run install:demoJest
+      - run: npm run install:demoJest
       - run: npm install
       - run: npm test
 
