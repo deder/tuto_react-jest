@@ -8,6 +8,7 @@
     "private": true,
     "scripts": {
       "test": "npm run test:demoJest",
+      "install:demoJest": "npm -prefix ./demo-jest/ install",
       "test:demoJest": "npm -prefix ./demo-jest/ test"
     },
     "devDependencies": {
