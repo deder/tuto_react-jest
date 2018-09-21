@@ -1,0 +1,19 @@
+{
+    "name": "ReactMultiProjets",
+    "version": "1.0.0",
+    "description": "Yarn workspaces with multiple jest project configs",
+    "main": "index.js",
+    "author": "",
+    "license": "MIT",
+    "private": true,
+    "scripts": {
+      "test": "npm run test:demoJest",
+      "test:demoJest": "npm -prefix ./demo-jest/ test"
+    },
+    "devDependencies": {
+      "jest": "20.0.4",
+      "jest-cli": "20.0.4",
+      "react-scripts": "^1.1.5",
+      "react-test-renderer": "^16.5.1"
+    }
+  }
